@@ -194,3 +194,36 @@ const firstName = prompt('Your name')
 const age = prompt('Your age')
  const answer = `Name: $ {firstName} "/n" Age:${age}`
 alert(answer)
+
+//   hw 1
+
+// alert ('Hello');
+
+// const firstName = prompt('What is your name?')
+// const lastName = prompt('What is your last name?')
+//  const answer = `Hello: ${firstName} ${lastName}`
+// alert(answer)
+
+
+
+// const a = prompt('Введите число:'); 
+// const b = prompt('Введите второе число:');
+
+// if (a>b ) {
+//     alert (a + 'больше')
+// } alert (b + 'больше')
+
+
+const signal = prompt ('Which color:')
+
+if (signal == "red" ){
+    alert ('stop')
+} else if (signal == "yellow"){
+    alert ('wait')
+} else if (signal == "green") {
+    alert ('go')
+}
+
+
+
+
